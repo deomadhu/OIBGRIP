@@ -1,0 +1,52 @@
+* {
+	font-family: Arial;
+	color: #333;
+}
+
+body {
+	display: flex;
+	background-color: rgb(192, 105, 105)
+}
+
+.container {
+	background-color: rgb(243, 217, 217);
+	width: 70%;
+	margin: 1em auto;
+	padding: 5em;
+	border: 7px solid #000;
+}
+
+h1 {
+	font-size: 3em;
+}
+
+form, .out-box {
+	margin-left: 30%;
+}
+
+label, p {
+	font-size: 1.8em;
+}
+
+input {
+	height: 30px;
+	font-size: 1.8em
+}
+
+.out-box p {
+	margin-left: 20%;
+	font-size: 3em;
+	font-weight: bold;
+}
+
+p.normal {
+	color: rgb(65, 146, 65);
+}
+
+p.hot {
+	color: rgb(193, 79, 79);
+}
+
+p.cold {
+	color: rgb(58, 58, 176);
+}
