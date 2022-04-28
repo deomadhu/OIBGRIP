@@ -1,0 +1,111 @@
+#cont{
+    background: #b7e0d3;
+    margin: 0%;
+    text-align: left;
+    padding: 5% 15% 1%;
+    max-height: min-content;
+    /* border-top: 1px solid; */
+}
+
+h1{
+    font-family: 'Roboto', sans-serif;
+    font-size: 5rem;
+}
+
+h3{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 2rem;
+}
+
+p{
+    color: #706d6d;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.navbar-brand{  /*for naturals icon*/
+    font-family: 'Ubuntu', sans-serif;
+    /* font-size: 1.5rem; */
+    font-weight: bold;
+}
+
+.nav-item{
+    padding: 0 10px;
+}
+
+.order{   /*for button order now*/
+    margin-top: 7%;
+}
+
+
+#features{
+    padding: 10% 15%;
+    margin: 0% 10%;
+    background-color: white;
+    border-bottom: 5px dashed gray;
+}
+
+.feature-box{
+    text-align: center;
+    padding: 1%;
+}
+
+.feature-icon{
+    margin:1em;
+}
+
+#flavors{
+    text-align: center;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    margin: 4% ;
+}
+
+.carousel-item{
+    padding: 7% 15% 3%;
+}
+
+.flavor-img{
+    width: 30%;
+}
+
+footer{
+    text-align: center;
+    padding: 2em;
+    background-color: #b7e0d3;
+    display: block;
+}
+
+#pricing{
+    background-image: url(n.jfif) ;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+    background-color: rgba(255,255,255,0.6);
+    background-blend-mode: lighten;
+    text-align: center;
+}
+
+.col{
+    margin:5em 0;
+}
+
+address{
+    font-style: italic;
+    font-size: 0.75em;
+    margin-bottom: 0%;
+}
+
+.formlink{
+    text-decoration: none;
+    color: inherit;
+    
+} 
+
+.social-icon{
+    text-decoration: none;
+    color: inherit;
+    padding: 0 1px;
+}
+.formlink:hover , .social-icon:hover{
+    color: #4eaa8d;
+}
+

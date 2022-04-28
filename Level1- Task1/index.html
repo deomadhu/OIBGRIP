@@ -1,0 +1,195 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <!-- Required meta tags -->
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+
+  <!-- Bootstrap CSS -->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.1/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-F3w7mX95PdgyTmZZMECAngseQB83DfGTowi0iMjiWaeVhAn4FJkqJByhZMI3AhiU" crossorigin="anonymous" />
+
+  <!-- fonts -->
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@900&family=Ubuntu&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="styles.css" />
+
+  <!-- Icons -->
+  <!-- <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"> -->
+  <script src="https://use.fontawesome.com/01f2ba8541.js"></script>
+  <link rel="shortcut icon" href="favicon.ico" type="favicon" />
+  <title>Naturals Ice Cream</title>
+</head>
+
+<body>
+  <!-- Navigation Bar -->
+  <nav class="navbar navbar-expand-lg navbar-light" style="background-color: #97d1bd">
+    <div class="container-fluid">
+      <a class="navbar-brand" href="#"><img src="https://img.icons8.com/plumpy/24/000000/ice-cream-cone.png" />
+        Naturals</a>
+        
+
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent"
+        aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+
+      <div class="collapse navbar-collapse" id="navbarSupportedContent">
+        <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
+          <li class="nav-item"><a class="nav-link" href="#flavors">Flavors</a></li>
+          <li class="nav-item"><a class="nav-link" href="#pricing">Pricing</a></li>
+          <li class="nav-item"><a class="nav-link" href="#contact">Contact</a></li>
+          <li class="nav-item dropdown">
+            <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown"
+              aria-expanded="false">
+              Login
+            </a>
+            <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+              <li><a class="dropdown-item" href="#">Employee</a></li>
+              <li>
+                <hr class="dropdown-divider" />
+              </li>
+              <li><a class="dropdown-item" href="#">Franchisee</a></li>
+            </ul>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </nav>
+
+  <div class="container-fluid" id="cont">
+    <!-- container-fluid creates a container which takes up 100% of width and is responsive and simple adjusts text inside it. -->
+    <div class="row">
+      <div class="col col-lg-6">
+        <h1>
+          WE ARE <br />
+          SLOWLY CHANGING.
+        </h1>
+        <button type="button" class="btn btn-outline-secondary order">
+          Order Now
+        </button>
+      </div>
+      <div class="col col-lg-6">
+        <img src="IMG/cone.jpg" alt="cone" />
+      </div>
+    </div>
+  </div>
+
+  <section id="features">
+    <div class="row">
+      <div class="feature-box col-lg-4">
+        <img class="feature-icon"
+          src="https://img.icons8.com/external-vitaliy-gorbachev-lineal-vitaly-gorbachev/60/000000/external-fruits-nature-resource-vitaliy-gorbachev-lineal-vitaly-gorbachev.png" />
+        <h3>Fresh</h3>
+        <p>Made with fresh fruits and extracts.</p>
+      </div>
+      <div class="feature-box col-lg-4">
+        <img class="feature-icon" src="https://img.icons8.com/ios/50/000000/organic-food.png" />
+        <h3>Organic</h3>
+        <p>No added sugar and preservatives.</p>
+      </div>
+      <div class="feature-box col-lg-4">
+        <img class="feature-icon"
+          src="https://img.icons8.com/windows/64/000000/savouring-delicious-food-face--v1.png" />
+        <h3>Delicious</h3>
+        <p>Rich taste of milk and fruits.</p>
+      </div>
+    </div>
+  </section>
+
+  <section id="flavors">
+    <h3>Flavors</h3>
+    <div id="carouselExampleIndicators" class="carousel carousel-dark slide" data-bs-ride="carousel">
+      <div class="carousel-indicators">
+        <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active"
+          aria-current="true" aria-label="Slide 1"></button>
+        <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1"
+          aria-label="Slide 2"></button>
+        <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2"
+          aria-label="Slide 3"></button>
+      </div>
+      <div class="carousel-inner">
+        <div class="carousel-item active" data-bs-interval="2000">
+          <h4>Chocolate ice-cream</h4>
+          <img class="flavor-img" src="IMG/choco.jpg" class="d-block w-100" alt="chocolate" />
+        </div>
+        <div class="carousel-item" data-bs-interval="2000">
+          <h4>Strawberry ice-cream</h4>
+          <img class="flavor-img" src="IMG/s.jpg" class="d-block w-100" alt="strawberry" />
+        </div>
+        <div class="carousel-item" data-bs-interval="2000">
+          <h4>Mint-chocochip ice-cream</h4>
+          <img class="flavor-img" src="IMG/m.jpg" class="d-block w-100" alt="mint" />
+        </div>
+      </div>
+      <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators"
+        data-bs-slide="prev">
+        <span class="carousel-control-prev-icon"></span>
+      </button>
+      <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators"
+        data-bs-slide="next">
+        <span class="carousel-control-next-icon"></span>
+      </button>
+    </div>
+  </section>
+
+  <section id="pricing">
+    <h3>Pricing</h3>
+    <div class="row row-cols-1 row-cols-md-3 g-4">
+      <div class="col">
+        <div class="card h-100">
+          <img src="IMG/1.jfif" class="card-img-top" alt="...">
+          <div class="card-body">
+            <h5 class="card-title">One Scoop</h5>
+            <p class="card-text">Rs 65/-</p>
+          </div>
+        </div>
+      </div>
+      <div class="col">
+        <div class="card h-100">
+          <img src="IMG/2.jfif" class="card-img-top" alt="...">
+          <div class="card-body">
+            <h5 class="card-title">Two Scoop</h5>
+            <p class="card-text">Rs 130/-</p>
+          </div>
+        </div>
+      </div>
+      <div class="col">
+        <div class="card h-100">
+          <img src="IMG/pack.jfif" class="card-img-top" alt="...">
+          <div class="card-body">
+            <h5 class="card-title">Family Pack</h5>
+            <p class="card-text">Rs 290/-</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <footer id="contact">
+    <address>
+      Ourtimes Ice Creams Pvt. Ltd. <br>
+      Plot No.55, Kandivali Industrial Estate, <br>
+      Charkop, Near Brimco Circle,<br>
+      Kandivali (W), Mumbai - 400 067<br>
+      Tel: 022 28696851/52/53<br>
+      Fax: 022 28696854<br>
+    </address>  
+    <a class="formlink" href="#">Mail us</a><br>
+    <hr>
+    <a class="social-icon" href="https://www.instagram.com/"><i class="fa fab fa-instagram"></i></a>
+    <a class="social-icon" href="https://www.facebook.com/"><i class="fa fab fa-facebook-square"></i></a>
+    <a class="social-icon" href="https://twitter.com/?lang=en-in"><i class="fa fab fa-twitter"></i></a>
+  </footer>
+
+
+  <!-- Option 1: Bootstrap Bundle with Popper -->
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.1/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-/bQdsTh/da6pkI1MST/rWKFNjaCP5gBSY4sEBT38Q/9RBh9AH40zEOg7Hlq2THRZ"
+    crossorigin="anonymous"></script>
+</body>
+
+
+</html>
